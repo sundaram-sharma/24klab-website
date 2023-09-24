@@ -9,13 +9,20 @@
 
 .main-container {
   color: white;
-  max-width: 1000px;
-  margin: 0 auto;
+  min-height: 100vh;
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
+
+  background-color:hsla(0,0%,0%,1);
+  background-image:
+  radial-gradient(at 10% 91%, hsla(18,56%,43%,0.69) 0px, transparent 50%),
+  radial-gradient(at 57% 97%, hsla(303,52%,44%,0.39) 0px, transparent 50%), 
+  radial-gradient(at 94% 73%, hsla(232,64%,42%,0.59) 0px, transparent 50%);
 }
 
 .navbar {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
@@ -37,7 +44,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30vh;
+  margin-top: 225px;
+  padding: 20px;
 }
 
 .hero-section h1 {

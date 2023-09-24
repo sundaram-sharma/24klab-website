@@ -1,4 +1,3 @@
-import Background from './components/Background'
 import './globals.css'
 import type { Metadata } from 'next'
 import Navbar from './components/Navbar'
@@ -20,7 +19,7 @@ export default function RootLayout({
         <div className='main-container'>
           <Navbar />
           {children}
-          <Background />
+          <Footer />
         </div>
       </body>
     </html>
