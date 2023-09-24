@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+
 .main-container {
   color: white;
   min-height: 100vh;
@@ -18,6 +19,11 @@
   radial-gradient(at 10% 91%, hsla(18,56%,43%,0.69) 0px, transparent 50%),
   radial-gradient(at 57% 97%, hsla(303,52%,44%,0.39) 0px, transparent 50%), 
   radial-gradient(at 94% 73%, hsla(232,64%,42%,0.59) 0px, transparent 50%);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .navbar {
@@ -41,6 +47,8 @@
 
 
 .hero-section {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,6 +82,8 @@
 }
 
 .footer-section {
+  max-width: 1000px;
+  margin: 0 auto;
   text-align: center;
   margin-top: 325px;
 }
