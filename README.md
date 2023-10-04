@@ -19,7 +19,7 @@
 # 🚀 Contribute
 
 Any contributions you make are **truly appreciated**.<br>
-Before contributing, see <a href="https://github.com/D4Community/d4-website/blob/master/CONTRIBUTING.md">Contribution guide</a> for more information.
+Before contributing, see <a href="https://github.com/24klab/24klab-website/blob/main/Contributing.md">Contribution guide</a> for more information.
 
 
 ## Thanks to all the contributors ❤️
